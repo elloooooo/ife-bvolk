@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="static/css/style.css">
+<link rel="Stylesheet" type="text/css" href="static/bootstrap-3.1.1/css/bootstrap.min.css">
+<link rel="Stylesheet" type="text/css" href="static/css/wiki.css">
+
+<script type="text/javascript" src="static/js/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="static/bootstrap-3.1.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="static/js/xregexp-all.js"></script> <!-- XRegExp is bundled with the final shCore.js during build -->
+<!-- 利用pin.js使toc固定在屏幕左侧-->
+<script type="text/javascript" src="static/js/jquery.pin.js"></script> 
+
+<script type="text/javascript" src="static/js/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shLegacy.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushAppleScript.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushAS3.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushColdFusion.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushDelphi.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushErlang.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushGroovy.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushPerl.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushPlain.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushRuby.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushSass.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushScala.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushVb.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushXml.js"></script>
+<!-- 自定义笔刷 -->
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushLaTex.js"></script>
+<script type="text/javascript" src="static/js/syntaxhighlighter/shBrushVimScript.js"></script>
+<!-- 加入数学公式的支持 -->
+<!--
+<script type="text/javascript" src="static/js/mathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+-->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<link type="text/css" rel="stylesheet" href="static/css/syntaxhighlighter/shCoreDefault.css"/>
+<link type="text/css" rel="stylesheet" href="static/css/font-awesome.css"/>
+
+<title>Ollie's wiki</title>
+<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a class="navbar-brand">Ollie's Wiki</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html"><i class="icon-home"></i> Home</a></li>
+						<li><a href="NoteBook/index.html"><i class="icon-pencil"></i> NoteBook</a></li>
+						<li><a href="TodoList/index.html"><i class="icon-ok"></i> TodoList</a></li>
+						<li><a href="BookList/index.html"><i class="icon-book"></i> BookList</a></li>
+						<li><a href="diary/diary.html"><i class="icon-coffee"></i> Diary</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container content-body">
+			<div class="content">
+			
+
+<p>
+<img src="static/img/headPic.jpg" alt="ME" />
+</p>
+
+
+<hr />
+<h4 id="toc_0.0.0.1">万一导航没有了呢？</h4>
+
+<ul>
+<li>
+<a href="NoteBook/index.html">NoteBook</a>
+
+<li>
+<a href="TodoList/index.html">TodoList</a>
+
+<li>
+<a href="BookList/index.html">BookList</a>
+
+<li>
+<a href="diary/diary.html">Diary</a>
+
+</ul>
+
+<p>
+<em>其实这里是为了vimwiki里面点方便啦！</em>
+</p>
+
+<hr />
+<h4 id="toc_0.0.0.2">参考资料</h4>
+<ul>
+<li>
+<a href="http://wiki.ktmud.com/tips/vim/vimwiki-guide.html">丘迟的维基世界</a> 
+
+<li>
+<a href="http://www.berlinix.com/vim/VimWiki.php">波黎克斯</a>
+
+</ul>
+
+
+			<hr>
+			<div id="disqus_thread"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="static/js/wiki.js"></script>
+		<script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES * * */
+			var disqus_shortname = 'olliewiki';
+
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	</body>
+</html>
