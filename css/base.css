@@ -89,7 +89,7 @@ li{list-style: none;}
 }
 
 .intro img {
-	height:80px;
+	height:90px;
 	display: block;
 	max-width: 100%;
 	border-radius:50%;
@@ -148,13 +148,16 @@ li{list-style: none;}
 
 .members a:hover::after{
 	/*transform: scale(0.5);*/
-	border-top: 1px solid rgba(0,0,0,0.1);
+	transition: all 0.4s ease-in-out;
+	border-top: 1px solid rgba(0,0,0,0.4);
 	opacity: 1;
 }
 
 .members a:hover img{
-	margin: -5px;
-	border: solid #ddd 5px;
+	transition: all 0.4s ease-in-out;
+	transform: rotate(360deg);
+	/*border: solid #ddd 5px;*/
+	/*margin: -5px;*/
 }
 
 
