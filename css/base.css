@@ -16,27 +16,6 @@ blockquote{font-size:1em}
 li{list-style: none;}
 .table{width:auto}
 
-.navbar{
-    width:90%;
-    margin:0 auto;
-
-    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-
-}
-
-.side-bar{
-    float:left;
-    width:20%;
-    margin:10px 10px 10px 0;
-}
-
-.side-bar ul{
-    margin-left:0;
-    padding-left:1em;
-}
 .content-detail{
     float:left;
     width:75%;
