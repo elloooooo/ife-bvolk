@@ -1,14 +1,12 @@
 body {
-	/*font-family: "Lato", Calibri, Arial, sans-serif;*/
 	font-family: 'Hammersmith One', "Microsoft YaHei",sans-serif;
-	margin: 10px;
+	/*margin: 10px;*/
 	color: #06185c;
 	background: #333 url(../img/bg/black_denim.jpg);
 	/*background:#205424 url('../img/wrapBg.jpg') no-repeat top center fixed;*/
 	min-height:600px;
 }
 h1, h2, h3, h4, h5, h6 {
-	/*font-family: "Lato", Calibri, Arial, sans-serif;*/
 	font-family: 'Hammersmith One',"Microsoft YaHei",sans-serif;
 	/*font-family: "Microsoft YaHei",Trebuchet MS, Helvetica, sans-serif; */
 	font-weight: bold; 
@@ -26,50 +24,20 @@ blockquote{font-size:1em}
 li{list-style: none;}
 .table{width:auto}
 
-.navbar{
-	width:90%;
-	margin:0 auto;
-
-	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-
-}
-
-.side-bar{
-	float:left;
-	width:20%;
-	margin:10px 10px 10px 0;
-}
-
-.side-bar ul{
-	margin-left:0;
-	padding-left:1em;
-}
-.content-detail{
-	float:left;
-	width:75%;
-	padding:0 10px 0 20px;
-	border-left:2px solid #dddddd;
-}
 .content{
 	width:80%;
 	min-height:450px;
-	background: #ffffff;
+	background: #fff;
 	border:1px solid #C0C0C0;
-	/*firefox*/
-	-moz-border-radius: 5px;
-	/*css3*/
-	border-radius: 5px;
-	/*webkit*/
 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 
 	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
-	margin:30px auto;
+	margin:40px auto;
 	padding:50px;
 }
 /*即便content内的内容都是浮动的，也可以讲背景容器撑开*/
@@ -81,7 +49,7 @@ li{list-style: none;}
 	visibility: hidden;
 }
 
-/*利用伪类元素给图像ME增加说明文字*/
+/*利用伪类元素给图像增加说明文字*/
 .intro {
 	display: inline-block;
 	position: relative;
@@ -119,7 +87,6 @@ li{list-style: none;}
 	padding:5px;
 	margin-left:-25%;
 	opacity:0;
-
 	/*border-top: 1px solid rgba(0,0,0,0.1);*/
 }
 
@@ -134,9 +101,10 @@ li{list-style: none;}
 }
 .members{
 	text-align:center;
+	margin-bottom: 10%;
 }
 .members ul li{
-	float: left;
+	display: inline-block;
 	padding: 0 20px;
 }
 .members ul li + li {
@@ -160,6 +128,22 @@ li{list-style: none;}
 	/*margin: -5px;*/
 }
 
+footer{
+	text-align:center;
+}
 
+@media screen and (max-width:900px) {
+	.intro img {
+		height:100px;
+		display: block;
+		max-width: 100%;
+		border-radius:50%;
+	}
+	.members ul>li{
+		margin-left:20px;
+	}
+	.members ul li{
+		margin-bottom:60px;
+	}
 
-
+}
