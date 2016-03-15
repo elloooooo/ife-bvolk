@@ -20,6 +20,7 @@ h3 {font-size: 1.8em; color: #707070;}
 h4 {font-size: 1.4em; color: #909090;}
 h5 {font-size: 1.3em; color: #989898;}
 h6 {font-size: 1.2em; color: #9c9c9c;}
+a {text-decoration: none;}
 blockquote{font-size:1em}
 li{list-style: none;}
 .table{width:auto}
@@ -94,6 +95,10 @@ li{list-style: none;}
 	text-align:center;
 	margin-bottom:10%;
 }
+.title2{
+	text-align:center;
+	margin-bottom:2%;
+}
 .members ul {
 	padding: 0;
 	height: auto;
@@ -127,7 +132,70 @@ li{list-style: none;}
 	/*border: solid #ddd 5px;*/
 	/*margin: -5px;*/
 }
+.task1 {
+	margin:0 auto;
+	padding:0;
+}
+.task1 ul{
 
+	padding: 0;
+	height: auto;
+	display: inline-block;
+}
+.task1 ul li{
+
+	display: inline-block;
+	padding: 0 20px;
+
+}
+.task1 ul li+li{
+	margin-left:20px;
+}
+
+.button {
+    display: block;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans serif;
+    padding: 8px 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: inset 0px 0px 2px #fff;
+    -webkit-box-shadow: inset 0px 0px 2px #fff;
+    -o-box-shadow: inset 0px 0px 2px #fff;
+    -moz-box-shadow: inset 0px 0px 2px #fff;
+}
+.color {
+    color: #986a39;
+    border: 1px solid #e6b650;
+    background-image: -moz-linear-gradient(#ffd974, #febf4d);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#febf4d), to(#ffd974));
+    background-image: -webkit-linear-gradient(#ffd974, #febf4d);
+    background-image: -o-linear-gradient(#ffd974, #febf4d);
+    text-shadow: 1px 1px 1px #fbe5ac;
+    background-color: #febf4d;
+}
+.color:hover {
+	border: 1px solid #c1913d;
+	background-image: -moz-linear-gradient(#febf4d, #ffd974);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd974), to(#febf4d));
+	background-image: -webkit-linear-gradient(#febf4d, #ffd974);
+	background-image: -o-linear-gradient(#febf4d, #ffd974);
+	background-color: #ffd974;
+}
+.task1 a{
+	/*animation*/
+   animation: colorPulse 2s infinite;
+   -webkit-animation: colorPulse 2s infinite;
+   -o-animation: colorPulse 2s infinite;
+   -moz-animation: colorPulse 2s infinite;
+}
+@-webkit-keyframes colorPulse{
+  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
 footer{
 	text-align:center;
 }
