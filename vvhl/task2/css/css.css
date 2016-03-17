@@ -1,0 +1,96 @@
+        *{
+            margin:0px;
+            padding:0px;
+            font-family:微软雅黑;
+        }
+        body{
+            background-color:#f3f3f3;
+        }
+        p{
+            text-indent:2em;
+            font-size:15px;
+            letter-spacing:2px;
+        }
+        header{
+            width:100%;
+            height:60px;
+            margin-bottom:20px;
+            background: #333333;
+        }
+        header .baidu-logo{
+            width:30%;
+            height:60px;
+            margin-left:3%;
+            padding-top:1%;
+            float:left;
+        }
+        header .menu{
+            width:70%;
+            height:60px;
+            margin-left:30%
+        }
+        header .menu ul li{
+            float:right;
+            margin-right: 3%;
+        }
+        header .menu ul .list-4 a{
+            color:#ccc;
+        }
+        header .menu ul a{
+            color:#fff;
+            font-size:12px;
+            line-height:60px;
+            text-decoration:none;
+        }
+        header .menu ul a:hover{
+            color:#ccc;
+        }
+        .content-1,.content-2,.content-3,.content-4{
+            clear:both;
+            width:94%;
+            margin:0px auto;
+            margin-bottom:20px;
+            padding:18px;
+            padding-top:30px;
+            padding-bottom:30px;
+            border:solid 1px #ccc;
+            background:#fff;
+            -webkit-box-shadow:1.2px 1.2px 1px;
+            -moz-box-shadow:1.2px 1.2px 1px;
+            -box-shadow:1.2px 1.2px 1px;
+        }
+        .content-1 .date,.content-2 .date{
+            font-size:13px;
+            color:#5D6770;
+            margin-bottom:20px;
+        }
+        .content-1 h3,.content-2 h3{
+            margin-bottom:25px;
+        }
+        .content-1 h4,.content-2 h4{
+            color:#5D6770;
+            margin-bottom:16px;
+        }
+        .content-1 .article img,.content-2 .article img{
+            margin:20px;
+        }
+        .content-2 ul{
+            margin-left:3%;
+        }
+        .content-2 li{
+            list-style:none;
+            font-size:15px;
+            line-height:25px;
+        }
+        .content-3 .pic dl{
+            margin-left:40px;
+            margin-top:20px;
+        }
+        .content-3 .pic dd{
+            width:10%;
+            border:solid 1px #ccc;
+        }
+        .content-3 .pic img{
+            width:100px;
+            height:100px;
+        }
