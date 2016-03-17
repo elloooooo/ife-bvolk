@@ -1,0 +1,454 @@
+/* 通用 */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 12px;
+    background: #f1f1f1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Hammersmith One',"Microsoft YaHei",sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+em {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+img {
+    border: none;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+}
+blockquote {
+    color: #c90;
+}
+br {
+    clear: left;
+}
+td,th {
+    padding: 0 10px;
+}
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    height: 0px;
+    clear: both;
+}
+.container {
+    margin: 0 auto;
+}
+
+/*头部¨*/
+.header {
+    background: #555;
+    height: auto;
+}
+.navContain {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.navContain img {
+    width: auto;
+    height: 60px;
+    /*åž‚ç›´å±…ä¸­*/
+    vertical-align: middle;
+}
+
+.navbar {
+    float: right;
+    margin: 20px 0;
+    padding-right: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+.navbar ul {
+    display: inline-block;
+}
+.navbar li {
+    font-size: 16px;
+    float: left;
+}
+.navbar li + li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    margin: 5px;
+    color: #fff;
+}
+.navbar ul li a:hover {
+    color: #0df;
+}
+.navbar a:link,.navbar a:active {
+    text-decoration: none;
+    color: white;
+}
+.navbar a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a.active {
+    text-decoration: none;
+    color: gray;
+}
+
+/*内容*/
+.wrapper {
+    width: 100%;
+    background: #f1f1f1;
+}
+.container {
+    background: #fff;
+    margin: 20px;
+    padding: 25px 1.8em;
+    box-shadow: 2px 1px 2px #999 ;
+}
+.head h2 {
+    text-align: left;
+}
+.head h3 {
+    text-align: left;
+    color: #b1b1b1;
+}
+.head span {
+    line-height: 30px;
+    font-weight: 400;
+    color: #b1b1b1;
+}
+
+.content {
+    text-indent: 0;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Microsoft Yahei";
+    text-align: justify;
+}
+.content p {
+    /*å­—ç²—ç»†*/
+    font-weight: 500;
+    /*å­—é—´è·*/
+    letter-spacing: 1px;
+}
+.content a {
+    text-decoration: underline;
+    color: blue;
+}
+.content img {
+    margin: 15px 0;
+}
+.indent {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Microsoft Yahei";
+}
+/*å›¾ç‰‡åŒº*/
+.imageCont {
+    width: 20%;
+    height: 20%;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #D0D0D0;
+}
+.list-image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.list-image h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.addBold {
+    font-weight: 900;
+}
+/*列表*/
+.head_list li {
+    margin: 0 2em;
+    list-style-type: decimal;
+}
+.head_list li:last-child {
+    margin: 0 2em 15px;
+}
+.sheet {
+    width: 100%;
+    height: auto;
+}
+.sheet thead {
+    background: #777;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.sheet tbody {
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+.sheet thead th,.sheet tbody th {
+    padding: 0 10px;
+}
+.changeColor {
+    background: #ccc;
+    border: 1px solid #fff;
+}
+/*表单*/
+form {
+    font-size: 16px;
+}
+.formWrap {
+    position: relative;
+    width: 100%; 
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 1em 0;
+}
+.formWrap input {
+    font-size: 1rem;
+}
+.formWrap span {
+    float: left;
+    text-align: right;
+    width: 25%;
+}
+.inputWrap {
+    width: 73%;
+    float: right;
+    padding: 0 1px;
+}
+.fixed {
+    display: inline-block;
+    width: 150%;
+}
+label {
+    width: 100%;
+    float: left;
+    margin-bottom: 14px;
+}
+select {
+    line-height: 1em;
+    padding: 0 1em;
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid #b1b1b1;
+    /*设置图片的方法
+        background: url("http:#/arrow.png") no-repeat scroll right center transparent;*/
+} 
+select::-ms-expand {
+    display: none;
+}
+textarea {
+    width: 40%;
+    height: 70px;
+    margin: 0 auto;
+    min-width: 40%;
+    min-height: 70px;
+    box-shadow: 1px 1px 0 #E7E7E7;
+    box-sizing: border-box;
+    border-color: #CCCCCC #999999 #999999 #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+.tips {
+    color: #b1b1b1;
+    text-align: left;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.inputWrap span{
+    margin: 0 2px;
+    padding: 0;
+    width: auto;
+}
+.formWrap input[type="submit"] {
+    width: 100%;
+    background: #4169E1;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.formWrap input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    background: #383636;
+    border: 5px solid #2F3133;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+/*.formWrap input[type="radio"]:hover,*/
+.formWrap input[type="radio"]:checked{
+    position: relative; 
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    border: 5px solid #62ccff;
+    background: #fff;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transition:0.5s ease-in;
+}
+ /*复选框*/
+/*外围div */
+.checkDiv{
+    display:inherit;
+    text-align: left; 
+
+}
+/*section每个checkbox大小*/
+.checkAera1,.checkAera2,.checkAera3{
+    display:inline-block;
+    position:relative;
+    text-align: center;
+    width:100px;
+    height:20px; 
+}
+.checkAera1::after{
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    content: 'HTML5';
+    font-size: 14px;
+    font-weight: 400;
+}
+.checkAera2::after{
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    content: 'CSS3';
+    font-size: 14px;
+    font-weight: 400;
+}
+.checkAera3::after{
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    content: 'Javascript';
+    font-size: 14px;
+    font-weight: 400;
+}
+/*checkbox外圆 */
+.checkCircle{
+    position:relative;
+    width:18px;
+    height:18px;
+    /*背景*/
+    background:#fcfff4;
+    background: linear-gradient(#fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -webkit-linear-gradient(#fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(#fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(#fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    border-radius: 2em;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -o-box-shadow:inset 0px 1px 1px white.0px 1px 3px 3px rgba(0,0,0,0.5);
+}
+/*checkboxnei内圆*/
+.checkCircle label{
+    position:absolute;
+    cursor:pointer;
+    width: 14px;
+    height: 14px;
+    left: 2px;
+    top: 2px;
+    background:linear-gradient(to bottom,#222222 0%,#45484d 100%);
+    background:-webkit-linear-gradient(to bottom,#222222 0%,#45484d 100%);
+    background:-moz-linear-gradient(to bottom,#222222 0%,#45484d 100%);
+    background:-o-linear-gradient(to bottom,#222222 0%,#45484d 100%);
+    border-radius: 2em;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.5),0 1px 0 white;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5),0 1px 0 white;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5),0 1px 0 white;
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.5),0 1px 0 white;
+}
+/*checkCircle内圆点击*/
+.checkCircle label::after{
+    position:absolute;
+    top:2px;
+    left:2px;
+    content:'';
+    width:10px;
+    height:10px;
+    border-radius: 2em;
+    background:#62ccff;
+    background:linear-gradient(to bottom,#62ccff 0%,#00ddff 100%);
+    background:-webkit-linear-gradient(to bottom,#62ccff 0%,#00ddff 100%);
+    background:-moz-linear-gradient(to bottom,#62ccff 0%,#00ddff 100%);
+    background:-o-linear-gradient(to bottom,#62ccff 0%,#00ddff 100%);
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+	  transition: all .5 ease-in-out;
+}
+.checkCircle label:hover::after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
+
+}
+.checkCircle input[type=checkbox] {
+  visibility: hidden;
+}
+.checkCircle input[type=checkbox]:checked + label:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/*底部*/
+.foot {
+    background-color: black;
+    color: #FFF;
+    height: auto;
+}
+.foot p {
+    padding: 30px 0 30px 20px;
+    text-align: center;
+}
