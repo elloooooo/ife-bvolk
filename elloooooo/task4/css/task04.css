@@ -1,0 +1,144 @@
+@charset "utf-8";
+body,
+form,
+div,
+span,
+ul,
+ol,
+li,
+p,
+pre,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+a,
+fieldset,
+legend,
+address,
+label,
+textarea,
+select,
+input,
+figure,
+table,
+th,
+td,
+b,
+i {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 14px/1.5 Microsoft YaHei, "微软雅黑", MicrosoftJhengHei, "华文细黑", STHeiti, MingLiu;
+}
+fieldset,
+img {
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus,
+input,
+button,
+select,
+textarea {
+  outline: none;
+  font-size: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-variant: normal;
+}
+input,
+select,
+img {
+  vertical-align: middle;
+}
+legend {
+  display: none;
+}
+textarea {
+  resize: none;
+}
+button {
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+footer {
+  text-align: center;
+  color: #ddd;
+  background-color: #000;
+  padding: 1em 2em;
+}
+.center-content {
+  width: 400px;
+  height: 200px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.top-left {
+  width: 50px;
+  height: 50px;
+  background-color: #fc0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+}
+.bottom-right {
+  width: 50px;
+  height: 50px;
+  background-color: #fc0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+}
+
+/*# sourceMappingURL=.maps/task04.css.map */
