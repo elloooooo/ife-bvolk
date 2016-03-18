@@ -20,7 +20,7 @@
         </div>
     </header>
     <section class="content-1">
-        <h3>文章一级标题</h3>
+        <h2>文章一级标题</h2>
         <h4>文章二级标题</h4>
         <div class="date">
         作者：Bvolk-vvhl  2016-03-14
@@ -44,7 +44,7 @@
           </div>
       </section>
       <section class="content-2">
-          <h3>另一篇文章的标题</h3>
+          <h2>另一篇文章的标题</h2>
           <h4>二级标题</h4>
           <div class="date">
               作者：Bvolk-vvhl  2016-03-14
@@ -111,82 +111,140 @@
             </div>
         </section>
         <section class="content-4">
-            <h2>内容三</h2>
-            <h2>二级标题</h2>
-            <p>作者：Bvolk-vvhl  2016-03-14</p>
-            <ol>
-                <li>有序列表一</li>
-                <li>有序列表二</li>
-                <li>有序列表三</li>
-            </ol>
-            <p>下面会出现一个表格，给表格加一个border="1"好让你知道这个是表格</p>
-            <table border="1">
-                <tr>
-                    <td>表头</td>
-                    <td>表头</td>
-                    <td>表头</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>表内容单元格</td>
-                    <td>表内容单元格</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td>总计</td>
-                    <td colspan="2">1000</td>
-                </tr>
-            </table>
+            <h2>最后一篇文章一级标题</h2>
+            <h4>二级标题</h4>
+            <div class="date">
+                作者：Bvolk-vvhl  2016-03-14
+            </div>
+            <div class="last-list">
+                <ol>
+                    <li><b>排名一</b></li>
+                    <li><b>排名二</b></li>
+                    <li><b>排名三</b></li>
+                </ol>
+            </div>
+            <div class="last-table">
+                下面会出现一个表格，给表格加一个border="1"好让你知道这个是表格
+                <table border="1" width="100%">
+                    <thead class="table-head">
+                        <tr>
+                            <td><b>表头</b></td>
+                            <td><b>表头</b></td>
+                            <td><b>表头</b></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="#">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="#">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="#">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表内容单元格</td>
+                            <td>表内容单元格</td>
+                            <td><a href="#">操作</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="total">
+                        <tr>
+                            <td>总计</td>
+                            <td colspan="2">1000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </section>
         <aside class="per-info">
-            <h2>这里以后是一个侧栏</h2>
-            <h2>侧栏的标题</h2>
-            <form>
-                <p>
-                    请输入邮箱地址：
-                    <input type="email" name="e-mail" placeholder="这是一个输入框" />
-                </p>
-                <p>邮箱地址请按照要求输入</p>
-                <p>
-                    请输入密码：
-                    <input type="password"  pattern="[0-9] [A-z] {6-16}" placeholder="这是一个输入框" />
-                    请重复输入密码：
-                    <input type="password" placeholder="这是一个输入框" />
-                </p>
-                <p>密码为6-16位英文数字</p>
-                </br>
-                性别：
-                <input type="radio" name="sex" value="male" />男
-                <input type="radio" name="sex" value="female" />女
-                城市：
-                <select name="city">
-                    <option value="Beijjing">北京</option>
-                    <option value="Shanghai">上海</option>
-                    <option value="Guangzhou">广州</option>
-                </select>
-                爱好：
-                <input type="checkbox">运动
-                <input type="checkbox">艺术
-                <input type="checkbox">科学
-                个人描述：
-                <textarea name="个人描述" placeholder="这是一个多行输入框，请输入描述文字"></textarea>
-                <button type="button" value="submit">确认提交</button>
-                <p>版权所有@</p>
+            <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+            <form action="#" method="post">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>请输入邮箱地址</td>
+                            <td>
+                                <input id="email" type="email" name="email" value="这是一个文本输入框" />
+                            </td>
+                        </tr>
+                        <tr class="tip">
+                            <td>&nbsp;</td>
+                            <td class="rule">邮箱地址请按照要求输入</td>
+                        </tr>
+                        <tr>
+                            <td>请输入密码</td>
+                            <td>
+                                <input id="password" type="password"  pattern="[a-zA-Z0-9]{6-16}" value="这是一个输入框" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>请重复输入密码</td>
+                            <td>
+                                <input  id="password-confirm" type="password" name="password-confirm" value="这是一个输入框" />
+                            </td>
+                        </tr>
+                        <tr class="tip">
+                            <td>&nbsp;</td>
+                            <td class="rule">密码为6-16位英文数字</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>性别</td>
+                        <td>
+                            <input id="sex-male" type="radio" name="sex" checked="checked" value="male" />
+                            <label>男</label>
+                            <input id="sex-female" type="radio" name="sex" value="female" />
+                            <label>女</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>城市</td>
+                        <td>
+                            <select id="city" name="city">
+                                <option value="Beijing">北京</option>
+                                <option value="Shanghai">上海</option>
+                                <option value="Guangzhou">广州</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>爱好</td>
+                        <td>
+                            <input type="checkbox">
+                            <tabel>运动</tabel>
+                            <input type="checkbox">
+                            <tabel>艺术</tabel>
+                            <input type="checkbox">
+                            <tabel>科学</tabel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>个人描述<td>
+                        <td>
+                            <textarea id="self-description" name="个人描述" placeholder="这是一个多行输入框，请输入描述文字"></textarea>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                            <button type="button" value="submit">确认提交</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
             </form>
       </aside>
+      <footer class="end">
+          <p>版权所有@</p>
+      </footer>
   </body>
 </html>
