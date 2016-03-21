@@ -124,10 +124,7 @@
         .content-4 .total{
             background:#ccc;
         }
-        .per-info .profile{
-            margin:0px auto;
-        }
-        .per-info h4{
+        aside h4{
             height:40px;
             line-height: 40px;
             border-left:solid 3px #ccc;
@@ -141,4 +138,13 @@
         form .rule{
             font-size:13px;
             color:#aaa;
+        }
+        form .self-description{
+            width:400px;
+            height:100px;
+        }
+        form .submit{
+            width:400px;
+            height:50px;
+            background:#ccc;
         }
