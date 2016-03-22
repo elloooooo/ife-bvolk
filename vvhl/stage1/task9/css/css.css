@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑;
+	font-size:14px;
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 60px;
+	background: #2189bf;
+	position: relative;
+}
+.head .top-logo{
+	margin-left: 2%;
+	position: absolute;
+	top: 20%;
+}
+.head .search-login{
+	width: 40%;
+	height: 60px;
+	margin-left: 60%;
+}
+.head .search-login .search-part .search-content{
+	margin-top: 15px;
+	width: 60%;
+	height: 30px;
+	border-radius: 100px;
+	border-style: none;
+}
+.head .search-login .search-part img{
+	margin-left:-58%;
+	margin-bottom: -4px;
+}
+.head .search-login .login-part{
+	float: right;
+	margin-top:-30px;
+}
+.head .search-login .login-part p{
+    margin-left: -500%;
+    margin-top: -22px;
+    color: #fff;
+}
+.head .search-login .login-part img{
+	margin-left: -580%;
+	margin-top: 7px;
+}
+.main{
+	width: 100%;
+	background: #ccc;
+}
+.main .left-part{
+	width: 15%;
+	height: 600px;
+	background: #2a2e3d;
+	float: left;
+}
+.main .left-part .top{
+	height: 150px;
+	background: #ccc;
+}
+.main .left-part .top .logo-part .logo{
+	float: left;
+}
+.main .left-part .top .star-part{
+	clear: both;
+}
+.main .left-part .top .star-part .star{
+	float: left;
+}
+.main .right-part{
+	width: 85%;
+	height: 600px;
+	background: #ededec;
+	margin-left: 15%;
+}
