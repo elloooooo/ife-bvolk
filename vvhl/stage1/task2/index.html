@@ -167,80 +167,55 @@
         <aside class="per-info">
             <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
             <form action="#" method="post">
-                <table>
-                    <thead>
-                        <tr>
-                            <td>请输入邮箱地址</td>
-                            <td>
-                                <input id="email" type="email" name="email" value="这是一个文本输入框" />
-                            </td>
-                        </tr>
-                        <tr class="tip">
-                            <td>&nbsp;</td>
-                            <td class="rule">邮箱地址请按照要求输入</td>
-                        </tr>
-                        <tr>
-                            <td>请输入密码</td>
-                            <td>
-                                <input id="password" type="password"  pattern="[a-zA-Z0-9]{6-16}" value="这是一个输入框" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>请重复输入密码</td>
-                            <td>
-                                <input  id="password-confirm" type="password" name="password-confirm" value="这是一个输入框" />
-                            </td>
-                        </tr>
-                        <tr class="tip">
-                            <td>&nbsp;</td>
-                            <td class="rule">密码为6-16位英文数字</td>
-                        </tr>
-                    </thead>
-                    <tr>
-                        <td>性别</td>
-                        <td>
-                            <input id="sex-male" type="radio" name="sex" checked="checked" value="male" />
-                            <label>男</label>
-                            <input id="sex-female" type="radio" name="sex" value="female" />
-                            <label>女</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>城市</td>
-                        <td>
-                            <select id="city" name="city">
-                                <option value="Beijing">北京</option>
-                                <option value="Shanghai">上海</option>
-                                <option value="Guangzhou">广州</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>爱好</td>
-                        <td>
-                            <input type="checkbox">
-                            <tabel>运动</tabel>
-                            <input type="checkbox">
-                            <tabel>艺术</tabel>
-                            <input type="checkbox">
-                            <tabel>科学</tabel>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>个人描述<td>
-                        <td>
-                            <textarea id="self-description" name="个人描述" placeholder="这是一个多行输入框，请输入描述文字"></textarea>
-                        </td>
-                    </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td>
-                            <button type="button" value="submit">确认提交</button>
-                            </td>
-                        </tr>
-                    </tfoot>
-                </table>
+                        <div>
+                            <label for="email">请输入邮箱地址</label>
+                            <input id="email" type="email" name="email" value="这是一个文本输入框" />
+                        </div>
+                        <div>
+                            <p class="rule">邮箱地址请按照要求输入</p>
+                        </div>
+                        <div>
+                            <label>请输入密码</label>
+                            <input id="password" type="password"  pattern="[a-zA-Z0-9]{6-16}" value="这是一个输入框" />
+                        </div>
+                        <div>
+                            <label>请重复输入密码</label>
+                            <input  id="password-confirm" type="password" name="password-confirm" value="这是一个输入框" />
+                        </div>
+                        <div>
+                            <p class="rule">密码为6-16位英文数字</p>
+                        </tdiv>
+                    <div>
+                        <label>性别</label>
+                        <input id="sex-male" type="radio" name="sex" checked="checked" value="male" />
+                        <label>男</label>
+                        <input id="sex-female" type="radio" name="sex" value="female" />
+                        <label>女</label>
+                    </div>
+                    <div>
+                        <label>城市</label>
+                        <select id="city" name="city">
+                            <option value="Beijing">北京</option>
+                            <option value="Shanghai">上海</option>
+                            <option value="Guangzhou">广州</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>爱好</label>
+                        <input type="checkbox">
+                        <tabel>运动</tabel>
+                        <input type="checkbox">
+                        <tabel>艺术</tabel>
+                        <input type="checkbox">
+                        <tabel>科学</tabel>
+                    </div>
+                    <div>
+                        <label>个人描述</label>
+                        <textarea class="self-description" id="self-description" name="个人描述" placeholder="这是一个多行输入框，请输入描述文字"></textarea>
+                    </div>
+                    <div class="submit">
+                        <a><input type="button" value="确认提交" /></a>
+                    </div>
             </form>
       </aside>
       <footer class="end">
