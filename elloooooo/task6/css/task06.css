@@ -1,0 +1,498 @@
+@charset "utf-8";
+body,
+form,
+div,
+span,
+ul,
+ol,
+li,
+p,
+pre,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+a,
+fieldset,
+legend,
+address,
+label,
+textarea,
+select,
+input,
+figure,
+table,
+th,
+td,
+b,
+i {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 14px/1.5 Microsoft YaHei, "微软雅黑", MicrosoftJhengHei, "华文细黑", STHeiti, MingLiu;
+}
+fieldset,
+img {
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus,
+input,
+button,
+select,
+textarea {
+  outline: none;
+  font-size: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-variant: normal;
+}
+input,
+select,
+img {
+  vertical-align: middle;
+}
+legend {
+  display: none;
+}
+textarea {
+  resize: none;
+}
+button {
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #938e8c;
+}
+header {
+  background-color: #fff;
+  height: 61px;
+  border-bottom: solid 2px #938e8c;
+  font-size: 12px;
+}
+header span:first-child {
+  display: inline-block;
+  height: 59px;
+  width: 110px;
+  background-color: #d45d5c;
+  line-height: 100px;
+  padding: 0 5px;
+  color: #fff;
+}
+header span:last-child {
+  display: inline-block;
+  height: 61px;
+  float: right;
+  line-height: 100px;
+}
+.container {
+  background-color: #fff;
+  width: 980px;
+  padding: 0 44px;
+  margin: 0 auto;
+}
+.container article,
+.container aside {
+  float: left;
+}
+figure.banner {
+  position: relative;
+}
+figure.banner img {
+  width: 641px;
+  height: 301px;
+  margin: 30px 0;
+}
+figure.banner::before,
+figure.banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 30px;
+  width: 191px;
+  height: 301px;
+}
+figure.banner::before {
+  left: 0;
+  background-color: rgba(0,118,17,0.5);
+}
+figure.banner::after {
+  right: 0;
+  background-color: rgba(204,118,128,0.5);
+}
+article.main {
+  width: 641px;
+}
+article.main section {
+  width: 33.3%;
+  float: left;
+  padding-right: 20px;
+}
+article.main section h2 {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+}
+article.main section p {
+  color: #000;
+}
+.section-left {
+  color: #008000;
+}
+.section-mid {
+  color: #d2994f;
+}
+.section-right {
+  color: #cc7680;
+}
+.section-right ul {
+  margin-top: 16px;
+}
+.section-right ul li {
+  margin-left: 0;
+  color: #000;
+  position: relative;
+}
+.section-right ul li::before {
+  content: "------------------------";
+  position: absolute;
+  top: 0;
+  left: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 60px;
+}
+.section-right ul li::after {
+  content: attr(data-val);
+  position: absolute;
+  top: 0;
+  left: 105px;
+  color: #cc7680;
+}
+aside.main {
+  width: 203px;
+  margin-left: 40px;
+}
+aside.main h2 {
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: underline;
+  font-variant: small-caps;
+  margin-top: 30px;
+  border-top: solid 2px rgba(204,118,128,0.5);
+}
+aside.main p {
+  font-size: 12px;
+  color: #676767;
+  line-height: 12px;
+}
+aside.main h3 {
+  font-family: Arial;
+  font-size: 116px;
+  font-weight: normal;
+  font-style: italic;
+  color: #75b86b;
+  line-height: 116px;
+}
+aside.main h4 {
+  font-size: 55px;
+  font-weight: normal;
+  color: #cc8091;
+  line-height: 55px;
+  position: relative;
+}
+aside.main h4::before {
+  content: attr(data-first);
+  font-size: 21px;
+  color: #cc8091;
+  position: absolute;
+  top: 0;
+  left: 82px;
+}
+aside.main h4::after {
+  content: attr(data-second);
+  font-size: 15px;
+  color: #ddd;
+  position: absolute;
+  top: 15px;
+  left: 82px;
+}
+.group {
+  padding-bottom: 20px;
+}
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+article.second h2 span:first-child {
+  font-size: 72px;
+  font-family: SimHei;
+  color: #f5e327;
+  font-style: oblique;
+}
+article.second h2 {
+  font-family: SimHei;
+  font-size: 42px;
+  color: #11456b;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+article.second h3 {
+  font-family: SimHei;
+  font-size: 33px;
+  font-family: SimHei;
+  color: #11456b;
+  font-style: bold;
+  line-height: 100%;
+  padding: 5px 0;
+}
+article.second p {
+  border-top: solid 2px #11456b;
+  padding: 16px 0;
+  font-family: SimSun;
+  font-size: 12px;
+  color: #677777;
+}
+article.second p:first-letter {
+  font-family: Microsoft YaHei;
+  font-size: 70px;
+  color: #f5e327;
+  float: left;
+  line-height: 1.1;
+  padding: 0 3px 0 0;
+}
+article.second {
+  width: 50%;
+  padding-right: 20px;
+}
+article.second img {
+  width: 130px;
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+aside.second {
+  width: 50%;
+}
+aside.second figure img {
+  width: 446px;
+}
+aside.second figure {
+  position: relative;
+}
+aside.second figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 446px;
+  height: 60px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 6px 0 6px 20px;
+}
+aside.second figcaption span {
+  height: 48px;
+  display: inline-block;
+  color: #fff;
+  border-left: 3px solid #72b16a;
+  font-size: 26px;
+  padding: 3px 0 3px 5px;
+  position: relative;
+}
+aside.second figcaption span::after {
+  content: attr(data-subtitle);
+  font-size: 12px;
+  color: #72b16a;
+  font-style: oblique;
+  font-family: Microsoft YaHei;
+  position: absolute;
+  top: 22px;
+  left: 105%;
+  width: 300px;
+}
+aside.second figcaption::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+aside.second div {
+  margin-top: 20px;
+  background-color: #eeedd6;
+}
+aside.second div::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+aside.second div section:first-child {
+  padding: 20px;
+}
+aside.second div ul {
+  overflow: hidden;
+}
+aside.second div ul li {
+  position: relative;
+}
+aside.second div ul li span {
+  margin-left: 0;
+  color: #5a5b5b;
+  position: relative;
+  font-size: 16px;
+}
+aside.second div ul li span::before {
+  content: ".............................................................................";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 400px;
+}
+aside.second div ul li::after {
+  content: attr(data-val);
+  font-size: 16px;
+  color: #5a5b5b;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #eeedd6;
+}
+aside.second div section:first-child {
+  margin-bottom: 20px;
+}
+section.red-block {
+  width: 240px;
+  height: 160px;
+  background-color: #d45d5c;
+  color: #fff;
+  font-family: Microsoft YaHei;
+  position: relative;
+  padding: 20px 1px;
+  float: left;
+  width: 240px;
+}
+section.red-block h2 {
+  display: inline-block;
+  font-size: 110px;
+  line-height: 86px;
+  margin: 10px 0;
+  font-weight: lighter;
+  border-right: 2px solid #fff;
+}
+section.red-block h3 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: oblique;
+  position: absolute;
+  top: 30px;
+  left: 72px;
+  line-height: 1;
+}
+section.red-block p {
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 72px;
+}
+aside.second section:last-child {
+  float: left;
+  width: 206px;
+  padding: 0 15px;
+  margin: 15px 0;
+}
+blockquote {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
+  text-indent: 35px;
+  margin: 0;
+  color: #5a5b5b;
+  word-break: break-all;
+  position: relative;
+}
+blockquote::before {
+  color: #d45d5c;
+  content: "“";
+  font: 72px "黑体";
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  margin-left: -40px;
+}
+blockquote::after {
+  color: #d45d5c;
+  content: "”";
+  font: 72px "黑体";
+  position: absolute;
+  right: -33px;
+  bottom: -64px;
+}
+footer {
+  height: 61px;
+  border-top: solid 2px #938e8c;
+  font-size: 12px;
+}
+footer span {
+  height: 61px;
+  float: right;
+}
+footer:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+/*# sourceMappingURL=.maps/task06.css.map */
