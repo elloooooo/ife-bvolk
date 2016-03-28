@@ -1,0 +1,23 @@
+#aqi-chart-wrap {
+  height: 500px;
+  margin: 5px 2px;
+  border: 2px groove threedface;
+}
+#aqi-chart-wrap:after {
+  content: "";
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+#aqi-chart-wrap .bar {
+  height: 500px;
+  position: relative;
+  float: left;
+}
+#aqi-chart-wrap .bar div {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=.maps/task17.css.map */
