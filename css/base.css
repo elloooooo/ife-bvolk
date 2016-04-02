@@ -158,11 +158,6 @@ li {
     margin-bottom: 10%;
 }
 
-.title2 {
-    text-align: center;
-    margin-bottom: 2%;
-}
-
 .members ul {
     padding: 0;
     height: auto;
@@ -246,47 +241,47 @@ li {
     background-color: #ffd974;
 }
 
-.task1 a {
-    /*animation*/
-    animation: colorPulse 2s infinite;
-    -webkit-animation: colorPulse 2s infinite;
-    -o-animation: colorPulse 2s infinite;
-    -moz-animation: colorPulse 2s infinite;
-}
+/*.task1 a {*/
+    /*!*animation*!*/
+    /*animation: colorPulse 2s infinite;*/
+    /*-webkit-animation: colorPulse 2s infinite;*/
+    /*-o-animation: colorPulse 2s infinite;*/
+    /*-moz-animation: colorPulse 2s infinite;*/
+/*}*/
 
-@-webkit-keyframes colorPulse {
-    from {
-        background-color: #749a02;
-        -webkit-box-shadow: 0 0 9px #333;
-    }
-    50% {
-        background-color: #91bd09;
-        -webkit-box-shadow: 0 0 18px #91bd09;
-    }
-    to {
-        background-color: #749a02;
-        -webkit-box-shadow: 0 0 9px #333;
-    }
-}
+/*@-webkit-keyframes colorPulse {*/
+    /*from {*/
+        /*background-color: #749a02;*/
+        /*-webkit-box-shadow: 0 0 9px #333;*/
+    /*}*/
+    /*50% {*/
+        /*background-color: #91bd09;*/
+        /*-webkit-box-shadow: 0 0 18px #91bd09;*/
+    /*}*/
+    /*to {*/
+        /*background-color: #749a02;*/
+        /*-webkit-box-shadow: 0 0 9px #333;*/
+    /*}*/
+/*}*/
 
 footer {
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
-    .intro img {
-        height: 100px;
-        display: block;
-        max-width: 100%;
-        border-radius: 50%;
-    }
+/*@media screen and (max-width: 900px) {*/
+    /*.intro img {*/
+        /*height: 100px;*/
+        /*display: block;*/
+        /*max-width: 100%;*/
+        /*border-radius: 50%;*/
+    /*}*/
 
-    .members ul > li {
-        margin-left: 20px;
-    }
+    /*.members ul > li {*/
+        /*margin-left: 20px;*/
+    /*}*/
 
-    .members ul li {
-        margin-bottom: 60px;
-    }
+    /*.members ul li {*/
+        /*margin-bottom: 60px;*/
+    /*}*/
 
-}
+/*}*/
