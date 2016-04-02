@@ -1,0 +1,1 @@
+{"version":3,"sources":["task18.styl"],"names":[],"mappings":"AAAA;EACE,OAAM,KAAN;EACA,kBAAiB,KAAjB;EACA,SAAQ,aAAR;EACA,SAAQ,IAAR;EACA,QAAO,IAAP","file":"task18.css","sourceRoot":"/source/","sourcesContent":["li.node\r\n  color #ffffff\r\n  background-color red\r\n  display inline-block\r\n  padding 5px\r\n  margin 5px\r\n"]}
